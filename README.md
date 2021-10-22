@@ -1,2 +1,7 @@
 # mun-message-system
-A moderated messaging system which allows users to communicate with each other exclusively through the Google Drive suite. 
+A moderated messaging system which allows users to communicate with each other exclusively through the Google Drive suite. See https://drive.google.com/drive/folders/1H-tzn_aPIf758sr1U8iFOnxwmHbrKBsB?usp=sharing for an editable template of the system. 
+
+## System description
+Users have access to a Google Form where they can send messages, as well as a Google Sheet which aggregates notes that are relevant to them – either because they are addressed to them from another person, or because they provide answers to a question the user has asked moderators. The aggregation is done using a QUERY() function. Within the user's individual Google Sheet, visual message notifications have also been implemented via conditional formatting in order to alert users when they have received a new message that they should pay attention to. 
+
+Moderators do the bulk of their work in a Google Sheet that is linked to the Google Form which accepts inputs from users. From here, multiple actions can be taken. Moderators can verify message senders, approve messages to be sent between users, write answers to questions that they are directly asked, and also flag messages for supervisor approval. Through the use of conditional formatting, the system is intuitively designed to encourage consistent and regular interaction on the part of moderators in order to ensure that discussion being conducted among users remains appropriate and relevant in nature. 
